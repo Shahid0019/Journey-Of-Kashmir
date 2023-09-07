@@ -339,5 +339,13 @@ font-weight: 400;
         padding-left: 0.7em;
         font-weight: 600;
     }
-   
+    .carousel-control-next {
+        left:98%
+    }
+    .carousel-control-prev {
+        left: -38px;
+    }
+    .carousel-control-next-icon,.carousel-control-prev-icon  {
+        filter: brightness(0);
+    }
 }
