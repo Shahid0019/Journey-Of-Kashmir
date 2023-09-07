@@ -13,10 +13,6 @@ p {
     font-family: Hind Madurai;
 }
 
-a:not([href]):not([tabindex]) {
-    color: white;
-}
-
 section {
     align-items: center;
 }
@@ -80,8 +76,11 @@ section {
         border-radius: 30px;
     }
 
-    .firstBtn {
+    .firstBtn,
+   #btn {
+        color: white;
         padding: 10px;
+        border: #D98400;
         text-align: center;
         font-weight: 600;
         margin: 20px 70px 20px 70px;
@@ -92,10 +91,20 @@ section {
         border-radius: 60px;
         background: #D98400;
         cursor: pointer;
-
     }
-
-    .Title>p {
+    .firstBtn,#btn:hover  {
+        transition: 0.4s;
+        background: transparent ;
+        color:#D98400;
+        border :2px solid #D98400;
+    }
+    .carousel-caption  .firstBtn:hover  {
+        transition: 0.4s;
+        background:transparent  ;
+        color:#D98400;
+        border :2px solid #D98400;
+    }
+    .Title > p {
         align-self: start;
         margin: 8px 0;
         color: #D98400;
@@ -184,11 +193,12 @@ section {
         flex-direction: column;
     }
 
-    .carousel-caption>.firstBtn {
+    .carousel-caption > .firstBtn {
+        color: white;
         align-self: center;
-        border: none;
         width: 200px;
         height: 45px;
+        background-color: #D98400;
     }
 
     /* Third Section */
@@ -325,11 +335,11 @@ font-weight: 400;
 
     }
     .btn-primary {
-        padding: 0.6em 1.8em;
+        padding: 0.4em 2em;
         background-color: #D98400;
         border: none;
         align-self: center;
-        border-radius: 15px;
+        border-radius: 25px;
         font-family: Poppins;
         font-size: 20px;
         font-weight: 400;
