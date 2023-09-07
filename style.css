@@ -39,7 +39,7 @@ section {
     #patch5 {
         position: absolute;
         top: 120em;
-        left: 20em;
+        right: 0;
         z-index: -1;
     }
 
@@ -51,7 +51,7 @@ section {
     #patch4 {
         position: absolute;
         top: 190em;
-        left: 21em;
+        right: 0;
         z-index: -1;
     }
 
@@ -64,7 +64,7 @@ section {
     #patch2 {
         position: absolute;
         top: 265em;
-        left: 21em;
+        right: 0;
         z-index: -1;
     }
     /* -------------------------------------------------------------------------------------------------------------------------- */
