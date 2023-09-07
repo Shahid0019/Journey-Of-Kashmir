@@ -17,9 +17,57 @@ section {
     align-items: center;
 }
 
+
 /* For MOBILE VIEW */
 /* Section One */
 @media only screen and (max-width :760px) {
+
+    /* Patchs Section  */
+    #patch7 {
+        position: absolute;
+        top: -15px;
+        right: 0;
+        z-index: -1;
+    }
+
+    #patch6 {
+        position: absolute;
+        top: 75%;
+        z-index: -1;
+    }
+
+    #patch5 {
+        position: absolute;
+        top: 120em;
+        left: 20em;
+        z-index: -1;
+    }
+
+    /* #patch {
+        position: absolute;
+        top:
+    } */
+
+    #patch4 {
+        position: absolute;
+        top: 190em;
+        left: 21em;
+        z-index: -1;
+    }
+
+    #patch3 {
+        position: absolute;
+        top: 222em;
+        z-index: -1;
+    }
+
+    #patch2 {
+        position: absolute;
+        top: 265em;
+        left: 21em;
+        z-index: -1;
+    }
+    /* -------------------------------------------------------------------------------------------------------------------------- */
 
     .Navbar {
         display: flex;
@@ -30,7 +78,7 @@ section {
 
     .logo {
         width: 25%;
-        margin:5px;
+        margin: 5px;
     }
 
     #title {
@@ -113,6 +161,7 @@ section {
     }
 
     .Title>p {
+        margin: 15px 6em 8px 0px;
         align-self: start;
         margin: 8px 0;
         color: #D98400;
@@ -248,9 +297,11 @@ section {
         height: 410px;
         flex-shrink: 0;
     }
+
     .carousel {
         width: 300px;
     }
+
     /* ----------------- */
     .w-200 {
         position: relative;
@@ -301,6 +352,7 @@ section {
     .cardlist1 {
         display: flex;
     }
+
     .card {
         border-radius: 30px 30px;
         background: #F5F4F4;
@@ -335,6 +387,7 @@ section {
         height: 18vh;
 
     }
+
     .btn-primary {
         padding: 0.4em 2em;
         background-color: #D98400;
@@ -369,5 +422,33 @@ section {
         background: transparent;
         border: 2px solid #D98400;
         color: #D98400;
+    }
+
+    /* Fifth Section */
+    .fifthSection {
+        margin: 45px 45px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fifthSection h1 {
+        font-size: 2rem;
+        margin: 45px 0;
+    }
+
+    .formSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textField {
+        padding: 0 25px;
+        margin-bottom: 24px;
+        width: 300px;
+        height: 46px;
+        flex-shrink: 0;
+        border-radius: 60px;
+        border: 1px solid #AAA;
     }
 }
