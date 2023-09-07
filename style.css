@@ -268,7 +268,7 @@ section {
 
     /* Fourth Section */
     .fourthSection {
-        margin: 50px 0;
+        margin: 50px;
         display: flex;
         flex-direction: column;
     }
@@ -337,6 +337,6 @@ font-weight: 400;
         font-weight: 600;
     }
     .carousel-control-next ,.carousel-control-prev{
-        display: none;
+      
     }
 }
