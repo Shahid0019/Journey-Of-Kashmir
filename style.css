@@ -336,4 +336,7 @@ font-weight: 400;
         padding-left: 0.7em;
         font-weight: 600;
     }
+    .carousel-control-next ,.carousel-control-prev{
+        display: none;
+    }
 }
