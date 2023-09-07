@@ -100,7 +100,9 @@ section {
     }
     .carousel-caption  .firstBtn:hover  {
         transition: 0.4s;
-        background:transparent  ;
+        background: rgb(27 29 32 / 43%);
+        border-radius: 15px;
+        backdrop-filter: blur(2px);
         color:#D98400;
         border :2px solid #D98400;
     }
@@ -357,5 +359,10 @@ font-weight: 400;
     }
     .carousel-control-next-icon,.carousel-control-prev-icon  {
         filter: brightness(0);
+    }
+    .btn-primary:hover{
+        background:transparent;
+        border: 2px solid #D98400;
+        color :#D98400;
     }
 }
