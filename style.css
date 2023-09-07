@@ -29,9 +29,12 @@ section {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
-
+.logo{
+    width: 25%;
+    margin-right: 3em;
+}
     #title {
         /* margin:  25px 25.56px 40px 50px; */
         color: #D98400;
@@ -336,7 +339,5 @@ font-weight: 400;
         padding-left: 0.7em;
         font-weight: 600;
     }
-    .carousel-control-next ,.carousel-control-prev{
-      
-    }
+   
 }
