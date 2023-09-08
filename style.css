@@ -143,20 +143,30 @@ section {
         text-decoration: none;
     }
 
-    Section .firstBtn:hover {
-        transition: 0.4s;
-        background: #ffa5000f;
-        color: #D98400;
-        border: 2px solid #D98400;
-    }
-
-    .carousel-caption .firstBtn:hover {
-        color: white;
-        transition: 0.4s;
-        background: transparent;
-        color: #D98400;
-        border: 2px solid #D98400;
-    }
+    .cardContainer .firstBtn:hover{
+        padding: 7px 10px;
+           transition: 0.4s;
+              background: transparent;
+              color: white;
+              border: 4px solid #D98400;
+      }
+  
+           .firstBtn:hover {
+                padding: 7px 10px;
+              transition: 0.4s;
+              background: transparent;
+              color: #D98400;
+              border: 4px solid #D98400;
+          }
+  
+      .carousel-caption .firstBtn:hover {
+          color: white;
+           padding: 7px 10px;
+          transition: 0.4s;
+          background: transparent;
+          border: 4px solid #D98400;
+      }
+  
 
     .Title>p {
         margin: 15px 6em 8px 0px;
