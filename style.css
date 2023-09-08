@@ -118,7 +118,7 @@ section {
         text-transform: capitalize;
     }
 
-    #Img {
+    .Img {
         width: 300px;
         height: 462px;
         flex-shrink: 0;
@@ -126,8 +126,7 @@ section {
         border-radius: 30px;
     }
 
-    .firstBtn,
-    #btn {
+    Section .firstBtn {
         color: white;
         padding: 12px 10px;
         border: #D98400;
@@ -144,8 +143,7 @@ section {
         text-decoration: none;
     }
 
-    .firstBtn,
-    #btn:hover {
+    Section .firstBtn:hover {
         transition: 0.4s;
         background: #ffa5000f;
         color: #D98400;
@@ -450,5 +448,90 @@ section {
         flex-shrink: 0;
         border-radius: 60px;
         border: 1px solid #AAA;
+    }
+    /*Footer Section*/
+.footerSection {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footTop h3 {
+    color: #D98400;
+    font-family: Hind Madurai;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.footTop > p {
+    text-align: start;
+    color: #747272;
+    font-family: Hind Madurai;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.num {
+    margin-left: 5px;
+    color: #D98400;
+    font-family: Hind Madurai;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.shareLogo {
+    margin: 8% 0;
+}
+
+.quickLinks {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.shareLogo {
+    font-size: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 18px;
+}
+
+    .shareLogo i {
+        background-color: #d98400;
+        color: white;
+        border: 2px solid;
+        padding: 8px;
+        border-radius: 50%;
+        transition: .3s ease-in-out;
+        border: 2px solid transparent;
+    }
+
+        .shareLogo i:hover {
+            color: #d98400;
+            background-color: white;
+            border-radius: 50%;
+            border-radius: 15px;
+            border-color: #d98400;
+        }
+
+.resource {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0;
+}
+
+    .quickLinks a, .resource a {
+        color: #747272;
+        text-decoration: none;
+        margin-top: 5px;
+    }
+
+    .quickLinks h2, .resource h2 {
+        text-align: start;
+        color: #D98400;
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 500;
     }
 }
